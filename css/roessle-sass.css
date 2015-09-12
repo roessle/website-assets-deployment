@@ -53,15 +53,31 @@
   text-transform: lowercase;
 }
 
-.content-options-inner h1:not(.cc-within-single-module-element):not(.j-blog-headline), .sidebar-options h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
+.content-options-inner h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
   text-transform: lowercase;
+  margin-bottom: 50px;
 }
-.content-options-inner h1 a:link, .content-options-inner h1 a:visited, .sidebar-options h1 a:link, .sidebar-options h1 a:visited {
+.content-options-inner h1 a:link, .content-options-inner h1 a:visited {
   text-transform: lowercase;
+  margin-bottom: 50px;
+}
+.content-options-inner h2:not(.cc-within-single-module-element):not(.j-blog-headline) {
+  text-transform: lowercase;
+  margin-bottom: 30px;
+}
+.content-options-inner h2 a:link, .content-options-inner h2 a:visited {
+  text-transform: lowercase;
+  margin-bottom: 30px;
+}
+.content-options-inner .j-text {
+  margin-bottom: 50px;
+}
+.content-options-inner .j-gallery {
+  margin-bottom: 50px;
 }
 
 .j-text, .j-text span {
-  font-size: 18px !important;
+  font-size: 22px !important;
 }
 
 body#page-2323191722 {
@@ -73,6 +89,13 @@ body#page-2352764222 {
 
 #cc-website-logo {
   display: none;
+}
+
+.cc-m-text .cc-m-text-font-size {
+  display: none !important;
+}
+.cc-m-text .cc-choose-color {
+  display: none !important;
 }
 
 /*# sourceMappingURL=roessle-sass.css.map */
