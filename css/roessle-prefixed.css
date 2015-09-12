@@ -1,0 +1,80 @@
+.logo {
+  margin-left: 10px;
+  margin-bottom: -30px;
+  height: 136px;
+}
+.logo .logo-roessle {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+}
+.logo .logo-roessle .logo-hotel-gasthof {
+  -webkit-transform: rotate(-8.8deg);
+      -ms-transform: rotate(-8.8deg);
+          transform: rotate(-8.8deg);
+  height: 17px;
+  color: #9d0525;
+  font-family: "Alegreya Sans",sans-serif,"google";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+.logo .logo-roessle .logo-stamp-roessle {
+  height: 123px;
+  width: 229px;
+  background: url(/images/logos/stamp_roessle.png);
+  margin-top: -10px;
+  margin-left: 16px;
+}
+
+.breadcrumb-float-outer-wrapper {
+  padding-left: 10px;
+}
+
+.navigation-colors-bar {
+  background: url(/images/backgrounds/bar.png);
+  background-color: #9d0525;
+  height: 20px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+}
+
+.navigation-colors {
+  background-color: #cbae9a;
+  padding-top: 27px;
+}
+
+.tpl-navigation-wrapper a:link, .tpl-navigation-wrapper a:visited {
+  font-size: 17px;
+  text-transform: lowercase;
+}
+
+.content-options-inner h1:not(.cc-within-single-module-element):not(.j-blog-headline), .sidebar-options h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
+  text-transform: lowercase;
+}
+.content-options-inner h1 a:link, .content-options-inner h1 a:visited, .sidebar-options h1 a:link, .sidebar-options h1 a:visited {
+  text-transform: lowercase;
+}
+
+.j-text, .j-text span {
+  font-size: 18px !important;
+}
+
+body#page-2323191722 {
+  background-image: url(/images/hero-images/cavallino.jpg);
+}
+body#page-2352764222 {
+  background-image: url(/images/hero-images/karin_dani1.jpg);
+}
+
+#cc-website-logo {
+  display: none;
+}
+
+/*# sourceMappingURL=roessle-prefixed.css.map */
