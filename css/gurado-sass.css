@@ -14,6 +14,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   text-transform: lowercase;
 }
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .top-link ul.links li a {
+    font-size: 17px !important;
+    white-space: inherit;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .top-link ul.links li a {
+    display: inherit !important;
+  }
+}
 
 .main.container, .main-container .container {
   background-color: #ffffff;
@@ -44,10 +55,22 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   z-index: 1;
-  background: linear-gradient(right, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
+  background: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
   background-size: 50% 1px;
   background-position: bottom right;
   background-repeat: no-repeat;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .meta-navigation {
+    background-size: 70% 1px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .meta-navigation {
+    background: none;
+    background-size: 100% 1px;
+    border-bottom: 1px solid #ffffff;
+  }
 }
 .meta-navigation .row {
   float: right;
@@ -72,6 +95,14 @@ h1, h2, h3, h4, h5, h6 {
 .meta-navigation ul li a:hover, .meta-navigation ul li a:active {
   color: #9d0525;
 }
+@media only screen and (max-width: 480px) {
+  .meta-navigation .row {
+    float: none;
+  }
+  .meta-navigation ul li {
+    width: 33%;
+  }
+}
 
 .mt-top-menu {
   background-image: url("/images/backgrounds/light_stone.jpg") !important;
@@ -91,6 +122,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #404040;
   border-style: none;
   font-weight: 600;
+}
+.mt-top-menu .quick-access ul.links li > a[title="Anmelden"] {
+  display: none !important;
 }
 .mt-top-menu .quick-access ul.links li:hover {
   background-color: transparent !important;
@@ -116,17 +150,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (min-width: 245px) and (max-width: 767px) {
-  .mt-top-menu .quick-access.container {
-    border-bottom: 3px solid #2a2a2a;
-  }
-
   .header {
-    background-color: #cbae9a;
-  }
-
-  .header-container .header .logo img {
-    margin-bottom: -17px;
-    margin-top: -17px;
+    display: none;
   }
 }
 .slider .hero-1 {
@@ -138,10 +163,16 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   transform: translateY(-50%);
   right: 30px;
+  margin-left: 30px;
   text-transform: lowercase;
   color: #ffffff;
   font-size: 20px;
   text-align: right;
+}
+@media only screen and (max-width: 480px) {
+  .slider .hero-1 .hero-1-txt {
+    font-size: 17px;
+  }
 }
 .slider .hero-2 {
   height: 400px;
@@ -157,6 +188,16 @@ h1, h2, h3, h4, h5, h6 {
 .slider .span8 {
   width: 66.66667%;
 }
+@media only screen and (min-width: 245px) and (max-width: 767px) {
+  .slider .span4 {
+    float: left;
+    width: 40%;
+  }
+  .slider .span8 {
+    float: left;
+    width: 60%;
+  }
+}
 .slider img {
   content: url("");
   height: 400px;
@@ -165,16 +206,24 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+.product-geschenkgutschein .product-name {
+  display: none;
+}
+.product-geschenkgutschein .product-img-box {
+  display: none !important;
+}
+.product-geschenkgutschein .description .std p strong {
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: block;
+}
+
 .about-us {
   display: none;
 }
 
 .mt-footer-static .payment-methods .footer-static-content h3 {
   padding: 20px 0 0 0;
-}
-
-.product-img-box {
-  display: none !important;
 }
 
 .mt-footer-static-container-top {
