@@ -135,6 +135,9 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -40px !important;
   top: inherit !important;
 }
+.mt-top-menu a.logo img {
+  display: none !important;
+}
 .mt-top-menu .logo-stamp-hotel-gasthof-roessle {
   height: 132px;
   width: 260px;
