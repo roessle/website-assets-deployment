@@ -7453,6 +7453,35 @@ button.close {
   background-size: cover;
 }
 
+.sidebar {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #2a2a2a;
+}
+.sidebar p, .sidebar table, .sidebar td, .sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6, .sidebar .h1, .sidebar .h2, .sidebar .h3, .sidebar .h4, .sidebar .h5, .sidebar .h6 {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .sidebar .cc-m-hgrid-column {
+    float: none;
+    width: auto !important;
+  }
+}
+
+.footer {
+  padding-bottom: 40px;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+.footer #contentfooter {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.footer #contentfooter a {
+  margin: 0 6px;
+}
+
 body {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 14px;
