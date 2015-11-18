@@ -7643,6 +7643,9 @@ div.hr {
   overflow-x: hidden;
 }
 
+#content_area {
+  margin-bottom: 50px;
+}
 #content_area h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
   text-transform: lowercase;
   text-align: center;
@@ -7700,6 +7703,13 @@ body#page-2356901922 .slider .hero-1-txt::after {
 body#page-2356901922 .slider .hero-2 {
   background-image: url(/images/hero-images/beetle1.jpg);
   background-position-y: bottom;
+}
+body#page-2368762822 .slider .hero-1-txt::after {
+  content: "Arbeiten im\aRössle";
+  white-space: pre;
+}
+body#page-2368762822 .slider .hero-2 {
+  background-image: url(/images/hero-images/sylvester.jpg);
 }
 
 @media (min-width: 768px) {
