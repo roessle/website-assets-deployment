@@ -7368,7 +7368,7 @@ button.close {
   display: block;
   padding: 10px 15px;
 }
-.main-navbar .main-nav .mainNav1 > li > a:hover {
+.main-navbar .main-nav .mainNav1 > li > a:hover, .main-navbar .main-nav .mainNav1 > li > a.current {
   color: #9d0525;
 }
 @media (min-width: 768px) {
@@ -7544,7 +7544,6 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  overflow-x: hidden;
 }
 
 p, table, td {
@@ -7640,6 +7639,10 @@ div.hr {
   left: 33.33333%;
 }
 
+.page-wrapper {
+  overflow-x: hidden;
+}
+
 #content_area h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
   text-transform: lowercase;
   text-align: center;
@@ -7668,11 +7671,22 @@ div.hr {
   font-size: 22px !important;
 }
 
+body .slider .hero-1-txt::after {
+  content: "Ein herzliches\aGrüss Gott";
+  white-space: pre;
+}
 body#page-2323191722 .slider .hero-2 {
   background-image: url(/images/hero-images/cavallino.jpg);
 }
 body#page-2352764222 .slider .hero-2 {
   background-image: url(/images/hero-images/karin_dani1.jpg);
+}
+body#page-2363323122 .slider .hero-1-txt::after {
+  content: "Ein paar Impressionen\avom Rössle";
+  white-space: pre;
+}
+body#page-2363323122 .slider .hero-2 {
+  background-image: url(/images/hero-images/hopfenzupfenfest1.jpg);
 }
 
 @media (min-width: 768px) {
