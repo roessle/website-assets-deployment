@@ -7669,6 +7669,13 @@ body#page-2368762822 .slider .hero-1-txt::after {
 body#page-2368762822 .slider .hero-2 {
   background-image: url(/images/hero-images/sylvester.jpg);
 }
+body#page-2323191922 .slider .hero-1-txt::after {
+  content: "Schreiben Sie uns";
+  white-space: pre;
+}
+body#page-2323191922 .slider .hero-2 {
+  background-image: url(/images/hero-images/herz.jpg);
+}
 
 @media (min-width: 768px) {
   body[style*="background-position"] .container {
