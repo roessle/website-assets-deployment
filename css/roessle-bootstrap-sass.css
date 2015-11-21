@@ -7869,22 +7869,19 @@ body.page-impresssum .slider .hero-2 {
 }
 
 @media (min-width: 768px) {
-  body[style*="background-position"] .container {
+  html:not(.j-feature-csstransitions) .container {
     width: 565px;
   }
 }
 @media (min-width: 992px) {
-  body[style*="background-position"] .container {
+  html:not(.j-feature-csstransitions) .container {
     width: 785px;
   }
 }
 @media (min-width: 1200px) {
-  body[style*="background-position"] .container {
+  html:not(.j-feature-csstransitions) .container {
     width: 985px;
   }
-}
-body[style*="background-position"] .cc-inner {
-  padding-right: 185px;
 }
 
 .cc-m-text .cc-m-text-font-size, .cc-m-textwithimage .cc-m-text-font-size {
