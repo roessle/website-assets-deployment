@@ -7271,6 +7271,43 @@ button.close {
     display: none !important;
   }
 }
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.42857;
+  color: #333333;
+}
+
+p, table, td {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.42857;
+  color: #333333;
+}
+
+input, textarea {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "ABeeZee",sans-serif,"google";
+  font-weight: normal;
+  font-style: normal;
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .page-wrapper {
   position: relative;
   overflow-x: hidden;
@@ -7438,7 +7475,6 @@ button.close {
           transform: translateY(-50%);
   right: 30px;
   margin-left: 30px;
-  text-transform: lowercase;
   color: #ffffff;
   font-size: 20px;
   text-align: right;
@@ -7450,7 +7486,6 @@ button.close {
 }
 .slider .hero-2 {
   height: 400px;
-  background-image: url(/images/hero-images/cavallino.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7502,95 +7537,174 @@ button.close {
   }
 }
 
-body {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 20px;
-  line-height: 1.42857;
-  color: #333333;
-}
-
-p, table, td {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 20px;
-  line-height: 1.42857;
-  color: #333333;
-}
-
-input, textarea {
-  font: inherit;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "ABeeZee",sans-serif,"google";
-  font-weight: normal;
-  font-style: normal;
-  color: inherit;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:active,
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
 body .slider .hero-1-txt::after {
   content: "Ein herzliches\aGrüss Gott";
   white-space: pre;
 }
-body#page-2323191722 .slider .hero-2 {
-  background-image: url(/images/hero-images/cavallino.jpg);
+body .slider .hero-2 {
+  background-image: url("/images/hero-images/cavallino-sm.jpg");
 }
-body#page-2352764222 .slider .hero-2 {
-  background-image: url(/images/hero-images/karin_dani1.jpg);
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body .slider .hero-2 {
+    background-image: url("/images/hero-images/cavallino-md.jpg");
+  }
 }
-body#page-2356899922 .slider .hero-1-txt::after {
+@media only screen and (min-width: 1200px) {
+  body .slider .hero-2 {
+    background-image: url("/images/hero-images/cavallino-lg.jpg");
+  }
+}
+body.page-home .slider .hero-2 {
+  background-image: url("/images/hero-images/cavallino-sm.jpg");
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-home .slider .hero-2 {
+    background-image: url("/images/hero-images/cavallino-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-home .slider .hero-2 {
+    background-image: url("/images/hero-images/cavallino-lg.jpg");
+  }
+}
+body.page-hotel .slider .hero-2 {
+  background-image: url("/images/hero-images/karin_dani1-sm.jpg");
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-hotel .slider .hero-2 {
+    background-image: url("/images/hero-images/karin_dani1-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-hotel .slider .hero-2 {
+    background-image: url("/images/hero-images/karin_dani1-lg.jpg");
+  }
+}
+body.page-restaurant .slider .hero-1-txt::after {
   content: "Spitze Tafeln\a...lässt es sich im »Rössle«";
   white-space: pre;
 }
-body#page-2356899922 .slider .hero-2 {
-  background-image: url(/images/hero-images/ente1.jpg);
+body.page-restaurant .slider .hero-2 {
+  background-image: url("/images/hero-images/ente1-sm.jpg");
 }
-body#page-2363323122 .slider .hero-1-txt::after {
-  content: "Ein paar Impressionen\avom Rössle";
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-restaurant .slider .hero-2 {
+    background-image: url("/images/hero-images/ente1-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-restaurant .slider .hero-2 {
+    background-image: url("/images/hero-images/ente1-lg.jpg");
+  }
+}
+body.page-aktuell .slider .hero-1-txt::after {
+  content: "Neuigkeiten\avom »Rössle«";
   white-space: pre;
 }
-body#page-2363323122 .slider .hero-2 {
-  background-image: url(/images/hero-images/hopfenzupfenfest1.jpg);
+body.page-aktuell .slider .hero-2 {
+  background-image: url("/images/hero-images/roessle1-sm.jpg");
+  background-position-y: top;
 }
-body#page-2356901922 .slider .hero-1-txt::after {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-aktuell .slider .hero-2 {
+    background-image: url("/images/hero-images/roessle1-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-aktuell .slider .hero-2 {
+    background-image: url("/images/hero-images/roessle1-lg.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-aktuell .slider .hero-2 {
+    background-position-y: 20%;
+  }
+}
+body.page-bilder .slider .hero-1-txt::after {
+  content: "Impressionen\avom »Rössle«";
+  white-space: pre;
+}
+body.page-bilder .slider .hero-2 {
+  background-image: url("/images/hero-images/hopfenzupfenfest1-sm.jpg");
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-bilder .slider .hero-2 {
+    background-image: url("/images/hero-images/hopfenzupfenfest1-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-bilder .slider .hero-2 {
+    background-image: url("/images/hero-images/hopfenzupfenfest1-lg.jpg");
+  }
+}
+body.page-umgebung .slider .hero-1-txt::after {
   content: "Aufbruch zu Erkundungen";
   white-space: pre;
 }
-body#page-2356901922 .slider .hero-2 {
-  background-image: url(/images/hero-images/beetle1.jpg);
+body.page-umgebung .slider .hero-2 {
+  background-image: url("/images/hero-images/beetle1-sm.jpg");
   background-position-y: bottom;
 }
-body#page-2368762822 .slider .hero-1-txt::after {
-  content: "Arbeiten im\aRössle";
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-umgebung .slider .hero-2 {
+    background-image: url("/images/hero-images/beetle1-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-umgebung .slider .hero-2 {
+    background-image: url("/images/hero-images/beetle1-lg.jpg");
+  }
+}
+body.page-jobs .slider .hero-1-txt::after {
+  content: "Arbeiten im\a»Rössle«";
   white-space: pre;
 }
-body#page-2368762822 .slider .hero-2 {
-  background-image: url(/images/hero-images/sylvester.jpg);
+body.page-jobs .slider .hero-2 {
+  background-image: url("/images/hero-images/sylvester-sm.jpg");
 }
-body#page-2323191922 .slider .hero-1-txt::after {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-jobs .slider .hero-2 {
+    background-image: url("/images/hero-images/sylvester-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-jobs .slider .hero-2 {
+    background-image: url("/images/hero-images/sylvester-lg.jpg");
+  }
+}
+body.page-kontakt .slider .hero-1-txt::after {
   content: "Schreiben Sie uns";
   white-space: pre;
 }
-body#page-2323191922 .slider .hero-2 {
-  background-image: url(/images/hero-images/herz.jpg);
+body.page-kontakt .slider .hero-2 {
+  background-image: url("/images/hero-images/herz-sm.jpg");
 }
-body#page-2323192022 .slider .hero-1-txt::after {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-kontakt .slider .hero-2 {
+    background-image: url("/images/hero-images/herz-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-kontakt .slider .hero-2 {
+    background-image: url("/images/hero-images/herz-lg.jpg");
+  }
+}
+body.page-impresssum .slider .hero-1-txt::after {
   content: "Impressum";
   white-space: pre;
 }
-body#page-2323192022 .slider .hero-2 {
-  background-image: url(/images/hero-images/hohenzollern1.jpg);
+body.page-impresssum .slider .hero-2 {
+  background-image: url("/images/hero-images/hohenzollern1-sm.jpg");
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-impresssum .slider .hero-2 {
+    background-image: url("/images/hero-images/hohenzollern1-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-impresssum .slider .hero-2 {
+    background-image: url("/images/hero-images/hohenzollern1-lg.jpg");
+  }
 }
 
 .content-slider {
@@ -7663,21 +7777,11 @@ body#page-2323192022 .slider .hero-2 {
 #content_area .j-hr {
   margin-bottom: 30px;
 }
-#content_area h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
-  text-transform: lowercase;
+#content_area .j-header h1 {
   text-align: center;
   margin-bottom: 50px;
 }
-#content_area h1 a:link, #content_area h1 a:visited {
-  text-transform: lowercase;
-  margin-bottom: 50px;
-}
-#content_area h2:not(.cc-within-single-module-element):not(.j-blog-headline) {
-  text-transform: lowercase;
-  margin-bottom: 30px;
-}
-#content_area h2 a:link, #content_area h2 a:visited {
-  text-transform: lowercase;
+#content_area .j-header h2 {
   margin-bottom: 30px;
 }
 #content_area .j-hr div.hr {
@@ -7690,6 +7794,10 @@ body#page-2323192022 .slider .hero-2 {
   content: attr(data-title);
   display: block;
   text-align: center;
+}
+#content_area .j-callToAction .j-calltoaction-link {
+  background-color: #9d0525;
+  border: none;
 }
 #content_area .j-hgrid h1:first-child, #content_area .j-hgrid h2:first-child, #content_area .j-hgrid h3:first-child {
   margin-top: 0px;
