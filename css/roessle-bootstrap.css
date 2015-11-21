@@ -7467,6 +7467,16 @@ a:hover {
   height: 400px;
   background-color: #9d0525;
 }
+@media only screen and (max-width: 767px) {
+  .slider .hero-1 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .slider .hero-1 {
+    height: 100px;
+  }
+}
 .slider .hero-1 .hero-1-txt {
   position: relative;
   top: 50%;
@@ -7566,6 +7576,10 @@ body.page-home .slider .hero-2 {
   body.page-home .slider .hero-2 {
     background-image: url("/images/hero-images/cavallino-lg.jpg");
   }
+}
+body.page-hotel .slider .hero-1-txt::after {
+  content: "Rundum\awohlfühlen";
+  white-space: pre;
 }
 body.page-hotel .slider .hero-2 {
   background-image: url("/images/hero-images/karin_dani1-sm.jpg");
@@ -7724,7 +7738,6 @@ body.page-impresssum .slider .hero-2 {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  text-transform: lowercase;
   color: #ffffff;
   font-size: 20px;
 }
@@ -7769,6 +7782,12 @@ body.page-impresssum .slider .hero-2 {
 }
 .content-slider.feste .slider-img {
   background-image: url(/images/hero-images/bauernstube1.jpg);
+}
+.content-slider.schmeienblick .slider-img {
+  background-image: url(/images/hero-images/pferd1.jpg);
+}
+.content-slider.sommerhaus .slider-img {
+  background-image: url(/images/hero-images/sommerhaus1.jpg);
 }
 
 #content_area .j-text, #content_area .j-video, #content_area .j-gallery, #content_area .j-callToAction {
