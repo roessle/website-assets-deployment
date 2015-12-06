@@ -6782,7 +6782,7 @@ a:hover {
   line-height: 20px;
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 8px;
 }
 .main-navbar .main-nav .mainNav1 > li > a:hover, .main-navbar .main-nav .mainNav1 > li > a.current {
   color: #9d0525;
@@ -6791,6 +6791,12 @@ a:hover {
   .main-navbar .main-nav .mainNav1 > li > a {
     padding-top: 44px;
     padding-bottom: 44px;
+  }
+}
+@media (min-width: 992px) {
+  .main-navbar .main-nav .mainNav1 > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -6803,12 +6809,7 @@ a:hover {
   background-position: bottom right;
   background-repeat: no-repeat;
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .meta-navigation {
-    background-size: 70% 1px;
-  }
-}
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .meta-navigation {
     background: none;
     background-size: 100% 1px;
@@ -6842,7 +6843,7 @@ a:hover {
   color: #9d0525;
   text-decoration: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .meta-navigation .row {
     float: none;
   }
@@ -6862,9 +6863,9 @@ a:hover {
   position: absolute;
   bottom: 60px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .logo-roessle {
-    display: none;
+    top: 0px;
   }
 }
 .logo-roessle .logo-hotel-gasthof {
@@ -6880,6 +6881,11 @@ a:hover {
   letter-spacing: 1px;
   word-spacing: 4px;
 }
+@media only screen and (max-width: 767px) {
+  .logo-roessle .logo-hotel-gasthof {
+    display: none;
+  }
+}
 .logo-roessle .logo-stamp-roessle {
   display: block;
   height: 123px;
@@ -6888,6 +6894,13 @@ a:hover {
   margin-top: -10px;
   margin-left: 16px;
   text-indent: -9999px;
+}
+@media only screen and (max-width: 767px) {
+  .logo-roessle .logo-stamp-roessle {
+    background: url(/images/logos/stamp_hotel_gasthof_roessle-h100.png);
+    height: 100px;
+    width: 197px;
+  }
 }
 
 .slider {
