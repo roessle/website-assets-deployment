@@ -6846,8 +6846,15 @@ a:hover {
   .meta-navigation .row {
     float: none;
   }
+  .meta-navigation ul {
+    padding: 0px;
+  }
   .meta-navigation ul li {
     width: 33%;
+    text-align: center;
+  }
+  .meta-navigation ul li a {
+    padding: 0px;
   }
 }
 
