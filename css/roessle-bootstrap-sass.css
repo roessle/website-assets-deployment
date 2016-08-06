@@ -1415,7 +1415,6 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3116,7 +3115,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3669,7 +3667,6 @@ select[multiple].input-lg,
   user-select: none;
 }
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -7007,16 +7004,16 @@ body .slider .hero-2 {
   }
 }
 body.page-home .slider .hero-2 {
-  background-image: url("/images/hero-images/cavallino-sm.jpg");
+  background-image: url("/images/hero-images/herz-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-home .slider .hero-2 {
-    background-image: url("/images/hero-images/cavallino-md.jpg");
+    background-image: url("/images/hero-images/herz-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-home .slider .hero-2 {
-    background-image: url("/images/hero-images/cavallino-lg.jpg");
+    background-image: url("/images/hero-images/herz-lg.jpg");
   }
 }
 body.page-hotel .slider .hero-1-txt::after {
@@ -7024,16 +7021,16 @@ body.page-hotel .slider .hero-1-txt::after {
   white-space: pre;
 }
 body.page-hotel .slider .hero-2 {
-  background-image: url("/images/hero-images/karin_dani1-sm.jpg");
+  background-image: url("/images/hero-images/zimmer1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-hotel .slider .hero-2 {
-    background-image: url("/images/hero-images/karin_dani1-md.jpg");
+    background-image: url("/images/hero-images/zimmer1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-hotel .slider .hero-2 {
-    background-image: url("/images/hero-images/karin_dani1-lg.jpg");
+    background-image: url("/images/hero-images/zimmer1-lg.jpg");
   }
 }
 body.page-restaurant .slider .hero-1-txt::after {
@@ -7041,39 +7038,33 @@ body.page-restaurant .slider .hero-1-txt::after {
   white-space: pre;
 }
 body.page-restaurant .slider .hero-2 {
-  background-image: url("/images/hero-images/ente1-sm.jpg");
+  background-image: url("/images/hero-images/restaurant1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-restaurant .slider .hero-2 {
-    background-image: url("/images/hero-images/ente1-md.jpg");
+    background-image: url("/images/hero-images/restaurant1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-restaurant .slider .hero-2 {
-    background-image: url("/images/hero-images/ente1-lg.jpg");
+    background-image: url("/images/hero-images/restaurant1-lg.jpg");
   }
 }
 body.page-aktuell .slider .hero-1-txt::after {
-  content: "Neuigkeiten\avom »Rössle«";
+  content: "Aktuelles\avom »Rössle«";
   white-space: pre;
 }
 body.page-aktuell .slider .hero-2 {
-  background-image: url("/images/hero-images/roessle1-sm.jpg");
-  background-position-y: top;
+  background-image: url("/images/hero-images/uhr1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-aktuell .slider .hero-2 {
-    background-image: url("/images/hero-images/roessle1-md.jpg");
+    background-image: url("/images/hero-images/uhr1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-aktuell .slider .hero-2 {
-    background-image: url("/images/hero-images/roessle1-lg.jpg");
-  }
-}
-@media only screen and (min-width: 1200px) {
-  body.page-aktuell .slider .hero-2 {
-    background-position-y: 20%;
+    background-image: url("/images/hero-images/uhr1-lg.jpg");
   }
 }
 body.page-bilder .slider .hero-1-txt::after {
@@ -7098,17 +7089,16 @@ body.page-umgebung .slider .hero-1-txt::after {
   white-space: pre;
 }
 body.page-umgebung .slider .hero-2 {
-  background-image: url("/images/hero-images/beetle1-sm.jpg");
-  background-position-y: bottom;
+  background-image: url("/images/hero-images/umgebung1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-umgebung .slider .hero-2 {
-    background-image: url("/images/hero-images/beetle1-md.jpg");
+    background-image: url("/images/hero-images/umgebung1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-umgebung .slider .hero-2 {
-    background-image: url("/images/hero-images/beetle1-lg.jpg");
+    background-image: url("/images/hero-images/umgebung1-lg.jpg");
   }
 }
 body.page-jobs .slider .hero-1-txt::after {

@@ -55,7 +55,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   z-index: 1;
-  background: -webkit-linear-gradient(right, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
   background: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
   background-size: 50% 1px;
   background-position: bottom right;
@@ -81,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 .meta-navigation ul li:not(:last-child) {
-  background: -webkit-linear-gradient(#ffffff, #ffffff);
   background: linear-gradient(#ffffff, #ffffff);
   background-size: 1px 50%;
   background-position: bottom right;

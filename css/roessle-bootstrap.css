@@ -1411,7 +1411,6 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -1440,7 +1439,6 @@ img {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -3109,7 +3107,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3135,7 +3132,6 @@ output {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 .form-control:focus {
@@ -3654,7 +3650,6 @@ select[multiple].input-lg,
   user-select: none;
 }
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3960,7 +3955,6 @@ input[type="button"].btn-block {
 
 .fade {
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 .fade.in {
@@ -3986,11 +3980,8 @@ tbody.collapse.in {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition-property: height, visibility;
   transition-property: height, visibility;
-  -webkit-transition-duration: 0.35s;
   transition-duration: 0.35s;
-  -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
 }
 
@@ -5475,7 +5466,6 @@ a.badge:hover, a.badge:focus {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
 }
 .thumbnail > img,
@@ -5613,13 +5603,11 @@ a.thumbnail.active {
   text-align: center;
   background-color: #337ab7;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
 
 .progress-striped .progress-bar,
 .progress-bar-striped {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px;
 }
@@ -5634,7 +5622,6 @@ a.thumbnail.active {
   background-color: #5cb85c;
 }
 .progress-striped .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
@@ -5642,7 +5629,6 @@ a.thumbnail.active {
   background-color: #5bc0de;
 }
 .progress-striped .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
@@ -5650,7 +5636,6 @@ a.thumbnail.active {
   background-color: #f0ad4e;
 }
 .progress-striped .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
@@ -5658,7 +5643,6 @@ a.thumbnail.active {
   background-color: #d9534f;
 }
 .progress-striped .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
@@ -6768,7 +6752,6 @@ a:hover {
   position: absolute;
   width: 100%;
   z-index: 1;
-  background: -webkit-linear-gradient(right, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
   background: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
   background-size: 50% 1px;
   background-position: bottom right;
@@ -6792,7 +6775,6 @@ a:hover {
   float: left;
 }
 .meta-navigation ul li:not(:last-child) {
-  background: -webkit-linear-gradient(#ffffff, #ffffff);
   background: linear-gradient(#ffffff, #ffffff);
   background-size: 1px 50%;
   background-position: bottom right;
@@ -6977,16 +6959,16 @@ body .slider .hero-2 {
   }
 }
 body.page-home .slider .hero-2 {
-  background-image: url("/images/hero-images/cavallino-sm.jpg");
+  background-image: url("/images/hero-images/herz-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-home .slider .hero-2 {
-    background-image: url("/images/hero-images/cavallino-md.jpg");
+    background-image: url("/images/hero-images/herz-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-home .slider .hero-2 {
-    background-image: url("/images/hero-images/cavallino-lg.jpg");
+    background-image: url("/images/hero-images/herz-lg.jpg");
   }
 }
 body.page-hotel .slider .hero-1-txt::after {
@@ -6994,16 +6976,16 @@ body.page-hotel .slider .hero-1-txt::after {
   white-space: pre;
 }
 body.page-hotel .slider .hero-2 {
-  background-image: url("/images/hero-images/karin_dani1-sm.jpg");
+  background-image: url("/images/hero-images/zimmer1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-hotel .slider .hero-2 {
-    background-image: url("/images/hero-images/karin_dani1-md.jpg");
+    background-image: url("/images/hero-images/zimmer1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-hotel .slider .hero-2 {
-    background-image: url("/images/hero-images/karin_dani1-lg.jpg");
+    background-image: url("/images/hero-images/zimmer1-lg.jpg");
   }
 }
 body.page-restaurant .slider .hero-1-txt::after {
@@ -7011,39 +6993,33 @@ body.page-restaurant .slider .hero-1-txt::after {
   white-space: pre;
 }
 body.page-restaurant .slider .hero-2 {
-  background-image: url("/images/hero-images/ente1-sm.jpg");
+  background-image: url("/images/hero-images/restaurant1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-restaurant .slider .hero-2 {
-    background-image: url("/images/hero-images/ente1-md.jpg");
+    background-image: url("/images/hero-images/restaurant1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-restaurant .slider .hero-2 {
-    background-image: url("/images/hero-images/ente1-lg.jpg");
+    background-image: url("/images/hero-images/restaurant1-lg.jpg");
   }
 }
 body.page-aktuell .slider .hero-1-txt::after {
-  content: "Neuigkeiten\avom »Rössle«";
+  content: "Aktuelles\avom »Rössle«";
   white-space: pre;
 }
 body.page-aktuell .slider .hero-2 {
-  background-image: url("/images/hero-images/roessle1-sm.jpg");
-  background-position-y: top;
+  background-image: url("/images/hero-images/uhr1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-aktuell .slider .hero-2 {
-    background-image: url("/images/hero-images/roessle1-md.jpg");
+    background-image: url("/images/hero-images/uhr1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-aktuell .slider .hero-2 {
-    background-image: url("/images/hero-images/roessle1-lg.jpg");
-  }
-}
-@media only screen and (min-width: 1200px) {
-  body.page-aktuell .slider .hero-2 {
-    background-position-y: 20%;
+    background-image: url("/images/hero-images/uhr1-lg.jpg");
   }
 }
 body.page-bilder .slider .hero-1-txt::after {
@@ -7068,17 +7044,16 @@ body.page-umgebung .slider .hero-1-txt::after {
   white-space: pre;
 }
 body.page-umgebung .slider .hero-2 {
-  background-image: url("/images/hero-images/beetle1-sm.jpg");
-  background-position-y: bottom;
+  background-image: url("/images/hero-images/umgebung1-sm.jpg");
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body.page-umgebung .slider .hero-2 {
-    background-image: url("/images/hero-images/beetle1-md.jpg");
+    background-image: url("/images/hero-images/umgebung1-md.jpg");
   }
 }
 @media only screen and (min-width: 1200px) {
   body.page-umgebung .slider .hero-2 {
-    background-image: url("/images/hero-images/beetle1-lg.jpg");
+    background-image: url("/images/hero-images/umgebung1-lg.jpg");
   }
 }
 body.page-jobs .slider .hero-1-txt::after {
