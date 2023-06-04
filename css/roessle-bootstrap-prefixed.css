@@ -6566,6 +6566,15 @@ a:hover {
   color: #9d0525;
   text-decoration: none;
 }
+.meta-navigation ul.lang-selector {
+  padding-inline-start: 15px;
+}
+.meta-navigation ul.lang-selector li {
+  background: none;
+}
+.meta-navigation ul.lang-selector li a {
+  padding: 2px 10px;
+}
 @media only screen and (max-width: 767px) {
   .meta-navigation .row {
     float: none;
