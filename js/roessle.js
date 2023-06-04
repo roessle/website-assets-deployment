@@ -53,6 +53,16 @@
 	// });
 
 
+	$(function() {
+	  $("#disable-google-translate").on( "click", function() {
+	      document.cookie = "googtrans=; max-age=0; Domain=.roessle.eu; Path=/"
+	      document.cookie = "googtrans=; max-age=0; Domain='www.roessle.eu'; Path=/"
+	      document.cookie = "googtrans=; max-age=0; Domain=''; Path=/"
+	      document.cookie = "googtrans=; max-age=0"
+	      window.document.location.href = "/";
+	  } );
+	});
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
