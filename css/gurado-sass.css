@@ -1,11 +1,11 @@
 body {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 0.813em;
   line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   z-index: 1;
-  background: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
+  background: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, rgba(0, 0, 0, 0));
   background-size: 50% 1px;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   border-style: none;
   font-weight: 600;
 }
-.mt-top-menu .quick-access ul.links li > a[title="Anmelden"] {
+.mt-top-menu .quick-access ul.links li > a[title=Anmelden] {
   display: none !important;
 }
 .mt-top-menu .quick-access ul.links li:hover {
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("/images/hero-images/cavallino.jpg") no-repeat center center;
   background-size: cover;
 }
-.slider [class*="span"] {
+.slider [class*=span] {
   margin: 0;
 }
 .slider .span4 {
@@ -230,11 +230,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mt-footer-static-container h1, .mt-footer-static-container h2, .mt-footer-static-container h3, .mt-footer-static-container h4, .mt-footer-static-container h5, .mt-footer-static-container h6, .mt-footer-static-container p, .mt-footer-static-container span, .mt-footer-static-container strong, .mt-footer-static-container label, .mt-footer-static-container, .mt-footer-static-container-bottom .mt-footer-static, .footer-static-title h1, .footer-static-title h2, .footer-static-title h3, .footer-static-title h4, .footer-static-title h5, .footer-static-title h6 {
-  font-family: 'Alegreya Sans', sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif !important;
 }
 
 .mt-copyright {
-  font-family: 'Alegreya Sans', sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif !important;
 }
 
 /*# sourceMappingURL=gurado-sass.css.map */

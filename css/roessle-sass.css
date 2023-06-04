@@ -12,7 +12,7 @@
   transform: rotate(-8.8deg);
   height: 17px;
   color: #9d0525;
-  font-family: "Alegreya Sans",sans-serif,"google";
+  font-family: "Alegreya Sans", sans-serif, "google";
   font-weight: normal;
   font-style: normal;
   font-size: 17px;
@@ -76,7 +76,7 @@
   margin-bottom: 50px;
 }
 
-.j-text, .j-text span {
+.j-text span, .j-text {
   font-size: 22px !important;
 }
 
