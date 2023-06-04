@@ -6785,6 +6785,12 @@ body .slider .hero-1-txt::after {
   content: "Ein herzliches\aGrüss Gott";
   white-space: pre;
 }
+body .slider:lang(en) .hero-1-txt::after {
+  content: "A warm greeting";
+}
+body .slider:lang(fr) .hero-1-txt::after {
+  content: "Un grand bonjour";
+}
 body .slider .hero-2 {
   background-image: url("/images/hero-images/cavallino-sm.jpg");
 }
@@ -6815,6 +6821,12 @@ body.page-hotel .slider .hero-1-txt::after {
   content: "Rundum\awohlfühlen";
   white-space: pre;
 }
+body.page-hotel .slider:lang(en) .hero-1-txt::after {
+  content: "Feel goodªll round";
+}
+body.page-hotel .slider:lang(fr) .hero-1-txt::after {
+  content: "Se sentir bien\atout autour";
+}
 body.page-hotel .slider .hero-2 {
   background-image: url("/images/hero-images/zimmer1-sm.jpg");
 }
@@ -6831,6 +6843,12 @@ body.page-hotel .slider .hero-2 {
 body.page-restaurant .slider .hero-1-txt::after {
   content: "Spitze Tafeln\a...lässt es sich im »Rössle«";
   white-space: pre;
+}
+body.page-restaurant .slider:lang(en) .hero-1-txt::after {
+  content: "A great meal\a...at the »Rössle«";
+}
+body.page-restaurant .slider:lang(fr) .hero-1-txt::after {
+  content: "Manger au mieux\a...au »Rössle«";
 }
 body.page-restaurant .slider .hero-2 {
   background-image: url("/images/hero-images/restaurant1-sm.jpg");
@@ -6849,6 +6867,12 @@ body.page-aktuell .slider .hero-1-txt::after {
   content: "Aktuelles\avom »Rössle«";
   white-space: pre;
 }
+body.page-aktuell .slider:lang(en) .hero-1-txt::after {
+  content: "News¯rom the »Rössle«";
+}
+body.page-aktuell .slider:lang(fr) .hero-1-txt::after {
+  content: "Actualités­u »Rössle«";
+}
 body.page-aktuell .slider .hero-2 {
   background-image: url("/images/hero-images/uhr1-sm.jpg");
 }
@@ -6865,6 +6889,12 @@ body.page-aktuell .slider .hero-2 {
 body.page-bilder .slider .hero-1-txt::after {
   content: "Impressionen\avom »Rössle«";
   white-space: pre;
+}
+body.page-bilder .slider:lang(en) .hero-1-txt::after {
+  content: "Impressions\aof the »Rössle«";
+}
+body.page-bilder .slider:lang(fr) .hero-1-txt::after {
+  content: "Impressions­u »Rössle«";
 }
 body.page-bilder .slider .hero-2 {
   background-image: url("/images/hero-images/hopfenzupfenfest1-sm.jpg");
@@ -6883,6 +6913,12 @@ body.page-umgebung .slider .hero-1-txt::after {
   content: "Aufbruch zu Erkundungen";
   white-space: pre;
 }
+body.page-umgebung .slider:lang(en) .hero-1-txt::after {
+  content: "Setting out to explore";
+}
+body.page-umgebung .slider:lang(fr) .hero-1-txt::after {
+  content: "Départ pour l'exploration";
+}
 body.page-umgebung .slider .hero-2 {
   background-image: url("/images/hero-images/umgebung1-sm.jpg");
 }
@@ -6899,6 +6935,12 @@ body.page-umgebung .slider .hero-2 {
 body.page-jobs .slider .hero-1-txt::after {
   content: "Arbeiten im\a»Rössle«";
   white-space: pre;
+}
+body.page-jobs .slider:lang(en) .hero-1-txt::after {
+  content: "Working at the\aRössle";
+}
+body.page-jobs .slider:lang(fr) .hero-1-txt::after {
+  content: "Travailler dans le\aRössle";
 }
 body.page-jobs .slider .hero-2 {
   background-image: url("/images/hero-images/sylvester-sm.jpg");
@@ -6917,6 +6959,12 @@ body.page-kontakt .slider .hero-1-txt::after {
   content: "Schreiben Sie uns";
   white-space: pre;
 }
+body.page-kontakt .slider:lang(en) .hero-1-txt::after {
+  content: "Write us";
+}
+body.page-kontakt .slider:lang(fr) .hero-1-txt::after {
+  content: "Écrivez-nous";
+}
 body.page-kontakt .slider .hero-2 {
   background-image: url("/images/hero-images/herz-sm.jpg");
 }
@@ -6933,6 +6981,12 @@ body.page-kontakt .slider .hero-2 {
 body.page-impresssum .slider .hero-1-txt::after {
   content: "Impressum";
   white-space: pre;
+}
+body.page-impresssum .slider:lang(en) .hero-1-txt::after {
+  content: "Imprint";
+}
+body.page-impresssum .slider:lang(fr) .hero-1-txt::after {
+  content: "Mentions légales";
 }
 body.page-impresssum .slider .hero-2 {
   background-image: url("/images/hero-images/hohenzollern1-sm.jpg");
