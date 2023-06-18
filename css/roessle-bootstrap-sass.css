@@ -6588,7 +6588,7 @@ a:hover {
   width: 100%;
   z-index: 1;
   background: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, rgba(0, 0, 0, 0));
-  background-size: 50% 1px;
+  background-size: 60% 1px;
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -6647,6 +6647,16 @@ a:hover {
     text-align: center;
   }
   .meta-navigation ul li a {
+    padding: 0px;
+  }
+  .meta-navigation ul.lang-selector {
+    padding-inline-start: 0px;
+    width: 100%;
+  }
+  .meta-navigation ul.lang-selector li {
+    width: 33%;
+  }
+  .meta-navigation ul.lang-selector li a {
     padding: 0px;
   }
 }
