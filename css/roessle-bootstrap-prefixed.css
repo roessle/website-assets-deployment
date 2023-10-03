@@ -6815,6 +6815,29 @@ body.page-restaurant .slider .hero-2 {
     background-image: url("/images/hero-images/restaurant1-lg.jpg");
   }
 }
+body.page-buchen .slider .hero-1-txt::after {
+  content: "Übernachtung\a buchen";
+  white-space: pre;
+}
+body.page-buchen .slider:lang(en) .hero-1-txt::after {
+  content: "Book your\astay";
+}
+body.page-buchen .slider:lang(fr) .hero-1-txt::after {
+  content: "Réserver\aune nuitée";
+}
+body.page-buchen .slider .hero-2 {
+  background-image: url("/images/hero-images/bett-sm.jpg");
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body.page-buchen .slider .hero-2 {
+    background-image: url("/images/hero-images/bett-md.jpg");
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.page-buchen .slider .hero-2 {
+    background-image: url("/images/hero-images/bett-lg.jpg");
+  }
+}
 body.page-aktuell .slider .hero-1-txt::after {
   content: "Aktuelles\avom »Rössle«";
   white-space: pre;
